@@ -137,6 +137,10 @@
         "videos",
         "audios"
       ]
+    },
+    "biencontratado": {
+      "type": "string",
+      "required": true
     }
   }
 }
