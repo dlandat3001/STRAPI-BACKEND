@@ -1,0 +1,105 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reclamations",
+  "info": {
+    "singularName": "reclamation",
+    "pluralName": "reclamations",
+    "displayName": "reclamation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "establecimiento": {
+      "type": "string",
+      "required": true
+    },
+    "nombres": {
+      "type": "string",
+      "required": true
+    },
+    "apellidos": {
+      "type": "string",
+      "required": true
+    },
+    "correo": {
+      "type": "string",
+      "required": true
+    },
+    "telefono": {
+      "type": "string",
+      "required": true
+    },
+    "tipodocumento": {
+      "type": "string",
+      "required": true
+    },
+    "documento": {
+      "type": "string",
+      "required": true
+    },
+    "departamento": {
+      "type": "string",
+      "required": true
+    },
+    "provincia": {
+      "type": "string",
+      "required": true
+    },
+    "distrito": {
+      "type": "string",
+      "required": true
+    },
+    "direccion": {
+      "type": "string",
+      "required": true
+    },
+    "tutor": {
+      "type": "string",
+      "required": true
+    },
+    "apellidotutor": {
+      "type": "string",
+      "required": true
+    },
+    "tipodocumentotutor": {
+      "type": "string",
+      "required": true
+    },
+    "documentotutor": {
+      "type": "string",
+      "required": true
+    },
+    "mensaje": {
+      "type": "text",
+      "required": true
+    },
+    "detalle": {
+      "type": "text",
+      "required": true
+    },
+    "pedido": {
+      "type": "text",
+      "required": true
+    },
+    "tiporeclamacion": {
+      "type": "string",
+      "required": true
+    },
+    "autorizacion": {
+      "type": "string",
+      "required": true
+    },
+    "reclamationfile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

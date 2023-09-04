@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "singularName": "message",
+    "pluralName": "messages",
+    "displayName": "message"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "modelo": {
+      "type": "text",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "apellido": {
+      "type": "string",
+      "required": true
+    },
+    "telefono": {
+      "type": "string",
+      "required": true
+    },
+    "correo": {
+      "type": "string",
+      "required": true
+    },
+    "tipodoc": {
+      "type": "string",
+      "required": true
+    },
+    "documento": {
+      "type": "string",
+      "required": true
+    },
+    "mensaje": {
+      "type": "text"
+    }
+  }
+}
