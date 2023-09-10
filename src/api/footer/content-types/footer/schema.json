@@ -4,7 +4,8 @@
   "info": {
     "singularName": "footer",
     "pluralName": "footers",
-    "displayName": "footer"
+    "displayName": "footer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -52,7 +53,7 @@
       "required": true
     },
     "legal": {
-      "type": "string",
+      "type": "text",
       "required": true
     }
   }
