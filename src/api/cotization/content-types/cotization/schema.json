@@ -31,6 +31,10 @@
     "gallery": {
       "type": "boolean",
       "required": true
+    },
+    "depatypes": {
+      "type": "json",
+      "required": true
     }
   }
 }
